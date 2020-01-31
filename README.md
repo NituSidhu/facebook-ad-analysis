@@ -7,7 +7,7 @@ We want to expand the spend on the sponsored content strategy while maintaining 
 
 ## The data
 
-Table: **Branded Content**
+Table: **[Branded Content](https://github.com/NituSidhu/facebook-ad-analysis/blob/master/branded_content_events.csv)**
 
 Page view that is generated once on a paid ad campaign
 
@@ -18,7 +18,7 @@ Fields | Description
  event_time | The timestamp of the branded content ad page view in epoch time 
  uid | A unique identifier for a visitor 
 
-Table: **App Installs**
+Table: **[App Installs](https://github.com/NituSidhu/facebook-ad-analysis/blob/master/app_install_events.csv)**
 
 A visitor installing and opening (we don’t receive the event if the user downloads but never opens the app) the app on a mobile device.
 
@@ -30,7 +30,7 @@ event_time|the timestamp of the download in epoch time
 article_id|A unique identifier for the article that the visitor viewed that directed them to the app download (null means there's no article)
 source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic
 
-Table: **Checkouts**
+Table: **[Checkouts](https://github.com/NituSidhu/facebook-ad-analysis/blob/master/checkout_events.csv)**
 
 A visitor starting a subscription, either through a direct purchase or through a free trial.
 
