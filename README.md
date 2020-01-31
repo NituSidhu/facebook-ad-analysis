@@ -13,16 +13,18 @@ App Installs - a visitor installing and opening (we don’t receive the event if
 Checkout - a visitor starting a subscription, either through a direct purchase or through a free trial
 
 Table: Branded Content
+
 Fields | Description 
-:-----|:------------
+-----|------------
  platform | The type of device that the events occurred on 
  campaign_name | The name of the branded content ad campaign (typically an author name) 
  event_time | The timestamp of the branded content ad page view in epoch time 
  uid | A unique identifier for a visitor 
 
 Table: App Installs
+
  Fields | Description 
-:-----|:------------
+-----|------------
 uid|A unique identifier for a visitor
 device_id| A unique identifier for the device of the visitor
 event_time|the timestamp of the download in epoch time
