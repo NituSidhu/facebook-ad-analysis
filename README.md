@@ -42,8 +42,8 @@ checkout_status|The result of the checkout, whether the visitor purchased direct
 trial_converted|A boolean flag for visitors who initiated trials if they eventually converted to a paid subscription at the end of the trial (7 days after trial start)
 
 ## The findings
-* iPhone users start trials at a rate that's more than double than Android users
-* 95% of subscribers that have converted come from trials as opposed to a direct purchase
+* iPhone users start trials at a rate that's more than double than Android users.
+* 95% of subscribers that have converted come from trials as opposed to a direct purchase.
 * We see a 20% increase in trials when advertising on a Tuesday and a -28% decrease in conversions when advertising on weekends.
 * We see a 37.6% boost in conversions at 12pm, yet we only advertise at noon only 3.4% of the time.
 * We spotted 3 dates that were outliers when analyzing the conversion rates for 'App Installs to Trial Starts' (March 11th, March 23rd and March 24th). I would imagine that it would be one of the more stable metrics.
