@@ -30,8 +30,9 @@ article_id|A unique identifier for the article that the visitor viewed that dire
 source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic
 
 Table: Checkouts
+
  Fields | Description 
-:-----|:------------
+-----|------------
 device_id|A unique identifier for the device of the visitor
 event_time|The timestamp of when the visitor checked out in epoch time
 checkout_status|The result of the checkout, whether the visitor purchased directly or if they initiated a trial
