@@ -13,29 +13,29 @@ App Installs - a visitor installing and opening (we don’t receive the event if
 Checkout - a visitor starting a subscription, either through a direct purchase or through a free trial
 
 Table: Branded Content
-| Fields | Description |
-|:-----|:------------|
-| platform | The type of device that the events occurred on |
-| campaign_name | The name of the branded content ad campaign (typically an author name) |
-| event_time | The timestamp of the branded content ad page view in epoch time |
-| uid | A unique identifier for a visitor |
+Fields | Description 
+:-----|:------------
+ platform | The type of device that the events occurred on 
+ campaign_name | The name of the branded content ad campaign (typically an author name) 
+ event_time | The timestamp of the branded content ad page view in epoch time 
+ uid | A unique identifier for a visitor 
 
 Table: App Installs
-| Fields | Description |
-|:-----|:------------|
-|uid|A unique identifier for a visitor|
-|device_id| A unique identifier for the device of the visitor|
-|event_time|the timestamp of the download in epoch time|
-|article_id|A unique identifier for the article that the visitor viewed that directed them to the app download (null means there's no article)|
-|source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic|
+ Fields | Description 
+:-----|:------------
+uid|A unique identifier for a visitor
+device_id| A unique identifier for the device of the visitor
+event_time|the timestamp of the download in epoch time
+article_id|A unique identifier for the article that the visitor viewed that directed them to the app download (null means there's no article)
+source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic
 
 Table: Checkouts
-| Fields | Description 
-|:-----|:------------
-|device_id|A unique identifier for the device of the visitor
-|event_time|The timestamp of when the visitor checked out in epoch time
-|checkout_status|The result of the checkout, whether the visitor purchased directly or if they initiated a trial
-|trial_converted|A boolean flag for visitors who initiated trials if they eventually converted to a paid subscription at the end of the trial (7 days after trial start)
+ Fields | Description 
+:-----|:------------
+device_id|A unique identifier for the device of the visitor
+event_time|The timestamp of when the visitor checked out in epoch time
+checkout_status|The result of the checkout, whether the visitor purchased directly or if they initiated a trial
+trial_converted|A boolean flag for visitors who initiated trials if they eventually converted to a paid subscription at the end of the trial (7 days after trial start)
 
 ## The findings
 * iPhone users start trials at a rate that's more than double than Android users
