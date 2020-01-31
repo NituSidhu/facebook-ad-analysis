@@ -6,13 +6,9 @@ Scenario: We paid to advertise our articles on facebook to expand our brand awar
 We want to expand the spend on the sponsored content strategy while maintaining a level of efficiency. 
 
 ## The data
-Branded Content - page view that is generated once  a paid ad campaign
 
-App Installs - a visitor installing and opening (we don’t receive the event if the user downloads but never opens the app) the app on a mobile device
-
-Checkout - a visitor starting a subscription, either through a direct purchase or through a free trial
-
-Table: Branded Content
+Table: **Branded Content**
+Page view that is generated once on a paid ad campaign
 
 Fields | Description 
 -----|------------
@@ -21,7 +17,8 @@ Fields | Description
  event_time | The timestamp of the branded content ad page view in epoch time 
  uid | A unique identifier for a visitor 
 
-Table: App Installs
+Table: **App Installs**
+A visitor installing and opening (we don’t receive the event if the user downloads but never opens the app) the app on a mobile device.
 
  Fields | Description 
 -----|------------
@@ -31,7 +28,8 @@ event_time|the timestamp of the download in epoch time
 article_id|A unique identifier for the article that the visitor viewed that directed them to the app download (null means there's no article)
 source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic
 
-Table: Checkouts
+Table: **Checkouts**
+A visitor starting a subscription, either through a direct purchase or through a free trial.
 
  Fields | Description 
 -----|------------
