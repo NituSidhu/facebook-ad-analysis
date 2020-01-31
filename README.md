@@ -8,6 +8,7 @@ We want to expand the spend on the sponsored content strategy while maintaining 
 ## The data
 
 Table: **Branded Content**
+
 Page view that is generated once on a paid ad campaign
 
 Fields | Description 
@@ -18,6 +19,7 @@ Fields | Description
  uid | A unique identifier for a visitor 
 
 Table: **App Installs**
+
 A visitor installing and opening (we don’t receive the event if the user downloads but never opens the app) the app on a mobile device.
 
  Fields | Description 
@@ -29,6 +31,7 @@ article_id|A unique identifier for the article that the visitor viewed that dire
 source|The origin of the visitor downloading the app, whether it's from an Ad or if it was organic
 
 Table: **Checkouts**
+
 A visitor starting a subscription, either through a direct purchase or through a free trial.
 
  Fields | Description 
